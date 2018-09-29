@@ -1,63 +1,87 @@
 <!doctype html>
 <html lang="en">
 
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <link rel="stylesheet" href="../../scripts/style.css">
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
-            crossorigin="anonymous">
-    </head>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="../../scripts/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+</head>
 
-    <body>
-        <div class="container">
-
-            <h4 class="text-center">for the Pre A1 Starters exam</h4>
-            <br>
-
-            <h5 class="text-center">Your Vocabulary<p></h5>
-            you know x of x words<p><br>
-
-
-            <h5 class="text-center">Listening and Speaking</h5>
-            <ul>
-                <li class="list-group-item vocab-list">CAN understand letters of the English alphabet when heard</li>
-                <li class="list-group-item vocab-list">CAN understand some simple spoken instructions given in short, simple phrases</li>
-                <li class="list-group-item vocab-list">CAN understand some simple spoken questions about self – such as name, age, favourite things or daily routine</li>
-                <li class="list-group-item vocab-list">CAN understand some very simple spoken descriptions of people – such as name, gender, age, mood, appearance or what
-                    they are doing</li>
-                <li class="list-group-item vocab-list">CAN understand some very simple spoken descriptions of
-                    everyday objects – such as how many, colour, size or location</li>
-                <li class="list-group-item vocab-list">CAN understand some very short conversations that use
-                    familiar questions and answers</li>
-                <li class="list-group-item vocab-list">CAN name some familiar people or things – such as family,
-                    animals, and school or household objects</li>
-                <li class="list-group-item vocab-list">CAN give very basic descriptions of some objects and animals –
-                    such as how many, colour, size or location</li>
-                <li class="list-group-item vocab-list">CAN respond to very simple questions with single words or a
-                    ‘yes/no’ response</li>
-            </ul>
-            <br>
-
-            <h5 class="text-center">Reading and Writing</h5>
-            <ul>
-                <li class="list-group-item vocab-list">CAN read and understand some simple sentences, including questions</li>
-                <li class="list-group-item vocab-list">CAN follow some very short stories written in very simple language</li>
-                <li class="list-group-item vocab-list">CAN write the letters of the English alphabet</li>
-                <li class="list-group-item vocab-list">CAN write name using the English alphabet</li>
-                <li class="list-group-item vocab-list">CAN copy words, phrases and short sentences</li>
-                <li class="list-group-item vocab-list">CAN spell some very simple words correctly</li>
-            </ul>
+<body>
+    <div class="container">
+        <div class="page-header">
+            <h4 class="text-center">Pre A1 Starters exam</h4>
         </div>
+        <br>
+
+
+        <h5 class="text-center">Your Vocabulary<p>
+        </h5>
+        you know x of x words<p><br>
+
+
+            <button class="btn" data-toggle="collapse" data-target="#collapseListeningAndSpeaking" role="button" aria-expanded="false"
+                aria-controls="collapseListeningAndSpeaking">
+                <h5>Listening and Speaking</h5>
+            </button>
+            <div class="collapse" id="collapseListeningAndSpeaking">
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item vocab-list">CAN understand letters of the English alphabet when heard</li>
+                    <li class="list-group-item vocab-list">CAN understand some simple spoken instructions given in
+                        short, simple phrases</li>
+                    <li class="list-group-item vocab-list">CAN understand some simple spoken questions about self –
+                        such as name, age, favourite things or daily routine</li>
+                    <li class="list-group-item vocab-list">CAN understand some very simple spoken descriptions of
+                        people – such as name, gender, age, mood, appearance or what
+                        they are doing</li>
+                    <li class="list-group-item vocab-list">CAN understand some very simple spoken descriptions of
+                        everyday objects – such as how many, colour, size or location</li>
+                    <li class="list-group-item vocab-list">CAN understand some very short conversations that use
+                        familiar questions and answers</li>
+                    <li class="list-group-item vocab-list">CAN name some familiar people or things – such as family,
+                        animals, and school or household objects</li>
+                    <li class="list-group-item vocab-list">CAN give very basic descriptions of some objects and animals
+                        –
+                        such as how many, colour, size or location</li>
+                    <li class="list-group-item vocab-list">CAN respond to very simple questions with single words or a
+                        ‘yes/no’ response</li>
+                </ul>
+            </div>
+            <br>
+
+            
+
+            <button class="btn" data-toggle="collapse" data-target="#collapseReadingAndWriting" role="button" aria-expanded="false" aria-controls="collapseReadingAndWriting">
+                <h5>Reading and Writing</h5>
+            </button>
+            <div class="collapse" id="collapseReadingAndWriting">
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item vocab-list">CAN read and understand some simple sentences, including
+                        questions</li>
+                    <li class="list-group-item vocab-list">CAN follow some very short stories written in very simple
+                        language</li>
+                    <li class="list-group-item vocab-list">CAN write the letters of the English alphabet</li>
+                    <li class="list-group-item vocab-list">CAN write name using the English alphabet</li>
+                    <li class="list-group-item vocab-list">CAN copy words, phrases and short sentences</li>
+                    <li class="list-group-item vocab-list">CAN spell some very simple words correctly</li>
+                </ul>
+            </div>
+
+
+    </div>
+    <div id="footer"></div>
 
 
 
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-            crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-            crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-            crossorigin="anonymous"></script>
-    </body>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+    <script src="../../scripts/sunshine.js"></script>
+</body>
 
 </html>

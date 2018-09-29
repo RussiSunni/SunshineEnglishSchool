@@ -1,3 +1,15 @@
+//partials
+
+$('#header').load('/views/header.html');
+$('#footer').load('../../views/footer.html');
+
+
+
+
+
+
+
+
 
 //cookies
 
@@ -43,12 +55,19 @@ var modalImg = document.getElementById("img01");
 var captionText = document.getElementById("caption");
 
 
-    img.onclick = function(){
-        modal.style.display = "block";
-        modalImg.src = this.src;
-        captionText.innerHTML = this.alt;
-       
+    if (modalImg != undefined)
+        if (img != undefined)
+    {
+        {
+            img.onclick = function(){
+                modal.style.display = "block";
+                modalImg.src = this.src;
+                captionText.innerHTML = this.alt;
+            }
+        }
     }
+   
+    
 
 }
 
@@ -57,9 +76,13 @@ var captionText = document.getElementById("caption");
 var span = document.getElementsByClassName("close")[0];
 
 // When the user clicks on <span> (x), close the modal
-span.onclick = function() { 
-  modal.style.display = "none";
+if (span) 
+{
+    span.onclick = function() { 
+        modal.style.display = "none";
+      }
 }
+
 
 
 
